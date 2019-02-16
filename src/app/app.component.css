@@ -1,0 +1,31 @@
+nav{
+    width: 100vw;
+    z-index: 1;
+}
+
+.nav-item .dropdown-menu{
+    background-color: #eef4f8;
+    text-align: center;
+    width: 20vw;
+}
+
+.logoImg{
+    width: 6vw;
+}
+
+.shadow{
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,.6);
+}
+
+    .dropdown-menu .dropdown-item{
+        width: 100%;
+        transition: 0.3s all linear;
+    }
+.sticky{
+    background: #fff;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
+    position: fixed;
+    top: 0;
+    height: 12vh;
+    width: 100vw;
+}
